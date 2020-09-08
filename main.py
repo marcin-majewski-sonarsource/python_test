@@ -2,7 +2,7 @@ range17 = range(17)
 a = [['0'] * 17 for i in range17]
 idx = [0] * 5 
  
- 
+;;;;;;; 
 def find_group(mark, min_n, max_n, depth=1):
     if (depth == 5):
         prefix = "" if (mark == '1') else "un"
