@@ -1,7 +1,7 @@
 range17 = range(17)
 a = [['0'] * 17 for i in range17]
 idx = [0] * 4
- 
+log('Test') 
  
 def find_group(mark, min_n, max_n, depth=1):
     if (depth == 5):
@@ -14,7 +14,7 @@ def find_group(mark, min_n, max_n, depth=1):
     for i in range(min_n, max_n):
         n = 0
         while (n < depth):
-            if (a[idx[n]][i] != mark):
+            if (a[idx[n]][i] != mark + ''):
                 break
             n += 1
  
